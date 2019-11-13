@@ -33,6 +33,7 @@ var ITEM_ID = null;
 // Initialize the Plaid client
 // Find your API keys in the Dashboard (https://dashboard.plaid.com/account/keys)
 var client = new plaid.Client(
+ 
   PLAID_CLIENT_ID,
   PLAID_SECRET,
   PLAID_PUBLIC_KEY,
